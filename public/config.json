@@ -6,13 +6,13 @@
 			"items": [
 				{
 					"name": "Plex",
-					"url": "http://192.168.1.100:32400",
+					"url": "https://192.168.50:32400",
 					"icon": "Tv",
 					"description": "Media Server"
 				},
 				{
 					"name": "Sonarr",
-					"url": "http://sonarr.local",
+					"url": "https://sonarr.local",
 					"icon": "Download",
 					"description": "TV Series Management"
 				}
@@ -23,13 +23,13 @@
 			"items": [
 				{
 					"name": "Portainer",
-					"url": "http://portainer.local",
+					"url": "https://portainer.local",
 					"icon": "Container",
 					"description": "Docker Management"
 				},
 				{
 					"name": "Pi-hole",
-					"url": "http://pihole.local/admin",
+					"url": "https://pihole.local/admin",
 					"icon": "Shield",
 					"description": "Network Ad Blocking"
 				}
