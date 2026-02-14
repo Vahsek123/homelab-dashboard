@@ -1,5 +1,5 @@
 {
-	"title": "My Homelab",
+	"title": "Homelab Dashboard",
 	"groups": [
 		{
 			"name": "Media",
@@ -7,14 +7,38 @@
 				{
 					"name": "Plex",
 					"url": "https://192.168.50:32400",
-					"icon": "Tv",
+					"icon": "Play",
 					"description": "Media Server"
+				},
+				{
+					"name": "Overseerr",
+					"url": "https://overseerr.local",
+					"icon": "Eye",
+					"description": "Request management and media discovery tool"
+				},
+				{
+					"name": "Radarr",
+					"url": "https://radarr.local",
+					"icon": "Film",
+					"description": "Movie collection manager"
 				},
 				{
 					"name": "Sonarr",
 					"url": "https://sonarr.local",
+					"icon": "Tv",
+					"description": "TV Series collection manager"
+				},
+				{
+					"name": "Prowlarr",
+					"url": "https://prowlarr.local",
+					"icon": "Archive",
+					"description": "Indexer manager"
+				},
+				{
+					"name": "qBittorrent",
+					"url": "https://qbittorrent.local",
 					"icon": "Download",
-					"description": "TV Series Management"
+					"description": "Torrent client"
 				}
 			]
 		},
@@ -22,16 +46,27 @@
 			"name": "Infrastructure",
 			"items": [
 				{
-					"name": "Portainer",
-					"url": "https://portainer.local",
-					"icon": "Container",
-					"description": "Docker Management"
-				},
-				{
 					"name": "Pi-hole",
 					"url": "https://pihole.local/admin",
 					"icon": "Shield",
-					"description": "Network Ad Blocking"
+					"description": "Network-wide ad blocking"
+				},
+				{
+					"name": "Nginx Proxy Manager",
+					"url": "https://nginx.local",
+					"icon": "Globe",
+					"description": "Proxy manager"
+				}
+			]
+		},
+		{
+			"name": "Automation",
+			"items": [
+				{
+					"name": "n8n",
+					"url": "https://n8n.local",
+					"icon": "Route",
+					"description": "Workflow automation platform"
 				}
 			]
 		}
