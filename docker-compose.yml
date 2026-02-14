@@ -1,0 +1,11 @@
+services:
+    dashboard:
+        build: .
+        container_name: homelab-dashboard
+        restart: unless-stopped
+        ports:
+            - '8080:80'
+        volumes:
+            # Map the local config.json to the container's serve directory
+            # This allows runtime updates by editing the local file without rebuilding.
+            - ./public/config.json:/usr/share/nginx/html/config.json:ro

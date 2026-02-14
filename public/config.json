@@ -1,0 +1,39 @@
+{
+	"title": "My Homelab",
+	"groups": [
+		{
+			"name": "Media",
+			"items": [
+				{
+					"name": "Plex",
+					"url": "https://192.168.50:32400",
+					"icon": "Tv",
+					"description": "Media Server"
+				},
+				{
+					"name": "Sonarr",
+					"url": "https://sonarr.local",
+					"icon": "Download",
+					"description": "TV Series Management"
+				}
+			]
+		},
+		{
+			"name": "Infrastructure",
+			"items": [
+				{
+					"name": "Portainer",
+					"url": "https://portainer.local",
+					"icon": "Container",
+					"description": "Docker Management"
+				},
+				{
+					"name": "Pi-hole",
+					"url": "https://pihole.local/admin",
+					"icon": "Shield",
+					"description": "Network Ad Blocking"
+				}
+			]
+		}
+	]
+}
