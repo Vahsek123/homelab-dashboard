@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google'; // keeping existing fonts
 import './globals.css';
 import { ConfigProvider } from '@/lib/config-provider';
-import { ThemeProvider } from '@/components/theme-provider'; // Future-proofing for dark mode
+import { ThemeProvider } from '@/components/theme-provider'; 
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -29,7 +29,14 @@ export default function RootLayout({
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
 			>
-				<ConfigProvider>{children}</ConfigProvider>
+				<ThemeProvider
+					attribute="class"
+					defaultTheme="system"
+					enableSystem
+					disableTransitionOnChange
+				>
+					<ConfigProvider>{children}</ConfigProvider>
+				</ThemeProvider>
 			</body>
 		</html>
 	);
