@@ -11,8 +11,8 @@
 					"description": "Media Server"
 				},
 				{
-					"name": "Overseerr",
-					"url": "https://overseerr.local",
+					"name": "Seerr",
+					"url": "https://seerr.local",
 					"icon": "Eye",
 					"description": "Request management and media discovery tool"
 				},
