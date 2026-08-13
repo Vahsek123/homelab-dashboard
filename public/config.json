@@ -6,37 +6,37 @@
 			"items": [
 				{
 					"name": "Plex",
-					"url": "https://192.168.50:32400",
+					"url": "http://192.168.0.50:32400",
 					"icon": "Play",
 					"description": "Media Server"
 				},
 				{
 					"name": "Seerr",
-					"url": "https://seerr.local",
+					"url": "http://192.168.0.50:5055",
 					"icon": "Eye",
 					"description": "Request management and media discovery tool"
 				},
 				{
 					"name": "Radarr",
-					"url": "https://radarr.local",
+					"url": "http://192.168.0.50:7878",
 					"icon": "Film",
 					"description": "Movie collection manager"
 				},
 				{
 					"name": "Sonarr",
-					"url": "https://sonarr.local",
+					"url": "http://192.168.0.50:8989",
 					"icon": "Tv",
 					"description": "TV Series collection manager"
 				},
 				{
 					"name": "Prowlarr",
-					"url": "https://prowlarr.local",
+					"url": "http://192.168.0.50:9696",
 					"icon": "Archive",
 					"description": "Indexer manager"
 				},
 				{
 					"name": "qBittorrent",
-					"url": "https://qbittorrent.local",
+					"url": "http://192.168.0.50:8080",
 					"icon": "Download",
 					"description": "Torrent client"
 				}
@@ -47,7 +47,7 @@
 			"items": [
 				{
 					"name": "Pi-hole",
-					"url": "https://pihole.local/admin",
+					"url": "http://192.168.0.50/admin",
 					"icon": "Shield",
 					"description": "Network-wide ad blocking"
 				},
@@ -56,7 +56,13 @@
 					"url": "https://nginx.local",
 					"icon": "Globe",
 					"description": "Proxy manager"
-				}
+				},
+        {
+          "name": "Tugtainer",
+          "url": "http://192.168.0.50:9412",
+          "icon": "Package",
+          "description": "Automated Docker container updates"
+        }
 			]
 		},
 		{
@@ -67,7 +73,13 @@
 					"url": "https://n8n.local",
 					"icon": "Route",
 					"description": "Workflow automation platform"
-				}
+				},
+        {
+          "name": "Home Assistant",
+          "url": "http://192.168.0.50:8123",
+          "icon": "House",
+          "description": "Home automation"
+        }
 			]
 		}
 	]
